@@ -15,8 +15,8 @@
 
 ### Screenshot
 
-![](./)
-![](./)
+![](./no-search-weather.png)
+![](./example-search-weather.png)
 
 ### Links
 
