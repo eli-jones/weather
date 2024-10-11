@@ -20,7 +20,7 @@
 
 ### Links
 
-- Live Site URL: [Live](https://eli-jones.github.io/weather/index.html)
+- Live Site URL: [Live](https://eli-jones-weather.netlify.app)
 
 ## My process
 
