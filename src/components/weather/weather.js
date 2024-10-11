@@ -66,7 +66,7 @@ const Weather = ({ unit, switchUnit }) => {
     };
 
     useEffect(() => {
-        search();
+        //search();
     });
     
     return (
