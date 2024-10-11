@@ -58,9 +58,7 @@ const Weather = ({ unit, switchUnit }) => {
                 pressure: pressure,
                 windSpeed: data.wind.speed
             });
-            
-            localStorage.setItem('city', city);
-            //console.log(JSON.parse(localStorage.getItem('city')));
+
         } catch (error) {
             setWeatherData(false);
             console.error('Error in fetching data.')
@@ -68,7 +66,7 @@ const Weather = ({ unit, switchUnit }) => {
     };
 
     useEffect(() => {
-        //search('paris');
+        search();
     });
     
     return (
