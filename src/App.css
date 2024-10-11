@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SUSE", sans-serif;
+}
+
+.app {
+    display: grid;
+    height: 100vh;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-cont {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 25rem;
+    padding: 2rem 0;
+    border-radius: 1rem;
+    background-image: linear-gradient(45deg, #80CED7, #AEDEE0);
+    box-shadow: rgba(158, 230, 238, 0.4) 0px 7px 29px 0px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.search .textSearch {
+    border: none;
+    height: 35px;
+    width: 250px;
+    border-radius: 1rem;
+    padding: 0 0.75rem;
+}
+
+.search .iconSearch {
+    position: relative;
+    z-index: 0;
+    width: 35px;
+    height: 35px;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    background-color: #FFF;
+    border: none;
+}
+
+.search .iconSearch:hover {
+    cursor: pointer;
+    background-color: azure;
+}
+
+.search .iconSearch:active {
+    background-color: slategrey;
+}
+
+.searchPic {
+    margin-left: -1.65rem;
+    width: 18px;
+    filter: invert(17%) sepia(11%) saturate(6036%) hue-rotate(164deg) brightness(95%) contrast(104%);
+}
+
+h2, h3, p {
+    color: #172a3a;
+}
+
+.weather {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.weather h2 {
+    font-size: 2.5rem;
+    font-weight: 1000;
+    letter-spacing: 1px;
+}
+
+.weather h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.weather .temp {
+    font-size: 1.5rem;
+}
+
+.weather p {
+    font-size: 1rem;
+}
+
+.weather .moreValue {
+    font-weight: 600;
+}
+
+.weatherIcon {
+    width: 17rem;
+    margin: -1rem 0;
+}
+
+.moreWeather {
+    width: 13rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.unit {
+    vertical-align: text-top;
+    font-size: 75%;
+}
+
+button {
+    all: unset;
+    background-image: linear-gradient(45deg, #80CED7, #AEDEE0);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 2rem;
+    transition: all linear 0.1s;
+}
+
+button:hover {
+    color: white;
+    font-size: 1.25rem;
+}
