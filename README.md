@@ -15,8 +15,8 @@
 
 ### Screenshot
 
-![](./no-search-weather.png)
-![](./example-search-weather.png)
+![](./no-search-weather.PNG)
+![](./example-search-weather.PNG)
 
 ### Links
 
